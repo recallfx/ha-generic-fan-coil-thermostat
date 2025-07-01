@@ -1,0 +1,11 @@
+{
+  "domain": "generic_fan_coil_thermostat",
+  "name": "Generic Fan Coil Thermostat",
+  "config_flow": true,
+  "documentation": "https://github.com/recallfx/generic_fan_coil_thermostat",
+  "dependencies": [],
+  "codeowners": ["@recallfx"],
+  "requirements": [],
+  "iot_class": "local_polling",
+  "version": "0.2.0"
+}

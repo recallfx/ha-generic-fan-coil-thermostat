@@ -1,0 +1,42 @@
+{
+  "config": {
+    "title": "Generic Fan Coil Thermostat",
+    "step": {
+      "user": {
+        "title": "Set up Generic Fan Coil Thermostat",
+        "description": "Set up a generic fan coil thermostat with fan speed control",
+        "data": {
+          "current_temperature_entity_id": "Temperature Sensor",
+          "fan_entity_id": "Fan Entity",
+          "cooling_switches": "Cooling Switches (optional)",
+          "heating_switches": "Heating Switches (optional)",
+          "min_temp": "Minimum Temperature",
+          "max_temp": "Maximum Temperature",
+          "target_temp": "Default Target Temperature",
+          "temp_step": "Temperature Step"
+        }
+      }
+    },
+    "error": {
+      "entity_not_found": "Entity not found"
+    },
+    "abort": {
+      "already_configured": "Device is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Generic Fan Coil Options",
+        "data": {
+          "cooling_switches": "Cooling Switches (optional)",
+          "heating_switches": "Heating Switches (optional)",
+          "min_temp": "Minimum Temperature",
+          "max_temp": "Maximum Temperature",
+          "target_temp": "Default Target Temperature",
+          "temp_step": "Temperature Step"
+        }
+      }
+    }
+  }
+}
