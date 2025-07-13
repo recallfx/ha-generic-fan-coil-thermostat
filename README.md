@@ -14,7 +14,7 @@ This repository is compatible with [HACS](https://hacs.xyz/). Add it as a custom
 
 ## Documentation
 
-See [GitHub documentation](https://github.com/yourusername/generic_fan_coil_thermostat).
+See [GitHub documentation](https://github.com/recallfx/ha-generic-fan-coil-thermostat).
 
 ## Features
 

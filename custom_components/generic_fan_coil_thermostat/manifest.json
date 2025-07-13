@@ -2,7 +2,7 @@
   "domain": "generic_fan_coil_thermostat",
   "name": "Generic Fan Coil Thermostat",
   "config_flow": true,
-  "documentation": "https://github.com/recallfx/generic_fan_coil_thermostat",
+  "documentation": "https://github.com/recallfx/ha-generic-fan-coil-thermostat",
   "dependencies": [],
   "codeowners": ["@recallfx"],
   "requirements": [],
