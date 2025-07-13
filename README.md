@@ -1,6 +1,20 @@
-# Generic Fan Coil Thermostat Component
+# Generic Fan Coil Thermostat
 
-This custom component creates a climate entity that behaves like a thermostat for controlling both heating and cooling with fan speed control. It automatically adjusts the fan speed based on the temperature difference between the current room temperature and the target temperature.
+A Home Assistant integration for controlling fan coil thermostats. Compatible with HACS.
+
+## Installation
+
+1. Copy the `custom_components/generic_fan_coil_thermostat` folder to your Home Assistant `custom_components` directory.
+2. Restart Home Assistant.
+3. Configure via UI or YAML.
+
+## HACS
+
+This repository is compatible with [HACS](https://hacs.xyz/). Add it as a custom repository in HACS for easy updates.
+
+## Documentation
+
+See [GitHub documentation](https://github.com/yourusername/generic_fan_coil_thermostat).
 
 ## Features
 
@@ -11,14 +25,6 @@ This custom component creates a climate entity that behaves like a thermostat fo
 - Supports heating, cooling, or both modes depending on configured switches
 - Configurable through the UI
 - Works with any fan entity that supports preset modes
-
-## Installation
-
-1. Place the `generic_fan_coil_thermostat` folder in your `custom_components` directory
-2. Restart Home Assistant
-3. Go to **Settings** > **Devices & Services** > **+ Add Integration**
-4. Search for "Generic Fan Coil Thermostat" and add it
-5. Follow the configuration wizard to set up your thermostat
 
 ## Configuration
 
